@@ -9,11 +9,18 @@ export default function Info() {
         <h1>Nikema Prophet</h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="http://nikema.dev">nikema.dev</a>
+          <a href="http://nikema.dev" target="_blank" rel="noreferrer">
+            nikema.dev
+          </a>
         </span>
         <div className="button-group">
-          <a class="btn linkedIn" href="https://linkedin.com/in/nikemaprophet">
-            <FaLinkedin size={16} color={"white"} />
+          <a
+            className="btn linkedIn"
+            href="https://linkedin.com/in/nikemaprophet"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin size={20} color={"white"} />
             LinkedIn
           </a>
         </div>
