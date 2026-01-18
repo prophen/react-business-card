@@ -8,10 +8,15 @@ import {
 export default function Footer() {
   return (
     <footer>
-      <FaSquareXTwitter size={25} color="#918E9B" />
-      <FaSquareFacebook size={25} color="#918E9B" />
-      <FaSquareInstagram size={25} color="#918E9B" />
-      <FaSquareGithub size={25} color="#918E9B" />
+      <a href="https://x.com/NikemaCodes" title="NikemaCodes on X">
+        <FaSquareXTwitter size={25} color="#918E9B" />
+      </a>
+      <a href="https://instagram.com/nikema" title="Nikema on Instagram">
+        <FaSquareInstagram size={25} color="#918E9B" />
+      </a>
+      <a href="https://github.com/prophen" title="prophen on GitHub">
+        <FaSquareGithub size={25} color="#918E9B" />
+      </a>
     </footer>
   );
 }

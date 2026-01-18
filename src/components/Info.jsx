@@ -12,14 +12,10 @@ export default function Info() {
           <a href="http://nikema.dev">nikema.dev</a>
         </span>
         <div className="button-group">
-          <button class="email">
-            <FaEnvelope size={16} color={"#1E1F26"} />
-            Email
-          </button>
-          <button class="linkedIn">
+          <a class="btn linkedIn" href="https://linkedin.com/in/nikemaprophet">
             <FaLinkedin size={16} color={"white"} />
             LinkedIn
-          </button>
+          </a>
         </div>
       </section>
     </>

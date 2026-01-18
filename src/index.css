@@ -51,6 +51,18 @@ h1 {
 
   text-decoration: none;
 }
+.info span a:hover {
+  color: #2b283a;
+  text-decoration: underline;
+}
+.info span a:focus-visible {
+  outline: 2px solid #f47d27;
+  outline-offset: 2px;
+  text-decoration: underline;
+}
+.info span a:active {
+  color: #1f1d2a;
+}
 
 .info span {
   display: block;
@@ -58,11 +70,12 @@ h1 {
 }
 .button-group {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   width: 100%;
 }
-button {
+.btn {
+  text-decoration: none;
   display: flex;
   border-radius: 6px;
   border: none;
@@ -70,6 +83,21 @@ button {
   justify-content: center;
   gap: 5px;
   padding: 10px 15px;
+  transition: transform 120ms ease, box-shadow 120ms ease,
+    background-color 120ms ease, color 120ms ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(17, 24, 39, 0.18);
+}
+.btn:focus-visible {
+  outline: 2px solid #f47d27;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(244, 125, 39, 0.25);
+}
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(17, 24, 39, 0.2);
 }
 
 .email {
@@ -108,4 +136,22 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+footer a {
+  display: inline-flex;
+  border-radius: 6px;
+  transition: transform 120ms ease, opacity 120ms ease, box-shadow 120ms ease;
+}
+footer a:hover {
+  transform: translateY(-1px);
+  opacity: 0.85;
+}
+footer a:focus-visible {
+  outline: 2px solid #f47d27;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(244, 125, 39, 0.25);
+}
+footer a:active {
+  transform: translateY(0);
+  opacity: 0.7;
 }
