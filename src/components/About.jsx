@@ -3,9 +3,12 @@ export default function About() {
     <section className="about">
       <h3>About</h3>
       <p>
-        I am a frontend developer with a particular interest in making things
-        simple and automating daily tasks. I try to keep up with security and
-        best practices, and am always looking for new things to learn.
+        I am a frontend developer who is currently on a learning journey to
+        sharpen my professional skills and gain new ones. As of January 2026,
+        I'm working through{" "}
+        <a href="https://scrimba.com/?via=u0ms04">Scrimba</a>'s Fullstack
+        Learning Path, taking a college course in UI design, and taking an
+        additional course in digital illustration.
       </p>
     </section>
   );

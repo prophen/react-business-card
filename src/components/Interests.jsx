@@ -3,8 +3,9 @@ export default function Interests() {
     <section className="interests">
       <h3>Interests</h3>
       <p>
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        I'm into my season of learning right now. Generative AI has been fun to
+        learn and use as a developer. Other interests include creating art and
+        spending time with my family.
       </p>
     </section>
   );
