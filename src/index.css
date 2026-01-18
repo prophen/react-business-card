@@ -81,3 +81,31 @@ button {
   color: white;
   background-color: #297fe5;
 }
+
+.about {
+  padding: 0 32px;
+}
+.interests {
+  padding: 20px 32px 42px 32px;
+}
+h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: #2b283a;
+}
+
+p {
+  margin: 5px 0 0 0;
+  font-size: 0.64rem;
+  color: #4a4e74;
+}
+
+footer {
+  height: 64px;
+  background-color: #d5d4d8;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
