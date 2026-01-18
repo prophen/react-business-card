@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #23252c;
+  display: grid;
+  place-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin-top: 40px;
+  width: 317px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.headshot {
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.info {
+  text-align: center;
+  padding: 20px 32px;
+}
+
+h1 {
+  font-size: 1.562rem;
+  color: #2b283a;
+  margin: 0 0 6px 0;
+  font-weight: bold;
+}
+
+.info h2 {
+  margin: 0 0 9px 0;
+  color: #f47d27;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.info span a {
+  font-size: 0.64rem;
+  color: #4a4e74;
+
+  text-decoration: none;
+}
+
+.info span {
+  display: block;
+  margin: 0 0 17px 0;
+}
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+button {
+  display: flex;
+  border-radius: 6px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 15px;
+}
+
+.email {
+  background-color: white;
+  color: #374151;
+}
+
+.linkedIn {
+  color: white;
+  background-color: #297fe5;
+}
